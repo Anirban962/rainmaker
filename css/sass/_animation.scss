@@ -1,0 +1,167 @@
+/* banener mving animation */
+
+@keyframes headerimg {
+    0% {
+        left: -5%;
+    }
+
+    100% {
+        left: -20%;
+    }
+
+}
+
+
+/* water fill animations */
+
+@keyframes iconcolrchange {
+    0% {
+        filter: none;
+    }
+
+    30% {
+        filter: brightness(80);
+
+    }
+
+    100% {
+        filter: brightness(200);
+
+    }
+}
+
+
+@keyframes border_anim_width {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 100%;
+    }
+}
+
+@keyframes border_anim_width2 {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 100%;
+    }
+}
+
+@keyframes border_anim_height {
+    0% {
+        height: 0px;
+    }
+
+    100% {
+        height: 38px;
+    }
+}
+
+@keyframes spin {
+
+
+    100% {
+        transform: translateY(0%) rotate(360deg);
+    }
+
+    0% {
+        transform: translateY(100%) rotate(0deg);
+    }
+}
+
+@keyframes r-water {
+
+
+    100% {
+        transform: translateY(0%) rotate(360deg);
+        background-color: rgb(23, 21, 153);
+    }
+
+    0% {
+        transform: translateY(100%) rotate(0deg);
+        background-color: rgb(23, 21, 153);
+    }
+}
+
+/* water wave animations */
+
+@keyframes wave {
+    to {
+        transform: scale(1);
+        opacity: 0
+    }
+}
+
+@keyframes fall {
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        transform: translateY(0rem);
+        opacity: 0;
+    }
+}
+
+@keyframes slowappear {
+    0% {
+        opacity: 1;
+    }
+
+    20% {
+        opacity: 0;
+    }
+
+    90% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+
+@keyframes fade_slow {
+    0% {
+        opacity: 0;
+    }
+
+    90% {
+       opacity: 1;
+   }
+
+   100% {
+       opacity: 1;
+   }
+}
+
+
+@keyframes custom_fill_num {
+    25% {
+        background-color: #fff;
+        color: #000;
+    }
+
+    50% {
+        background-color: #000b96;
+        color: #fff;
+        opacity: .5;
+    }
+
+    75% {
+        background-color: #000b96;
+        color: #fff;
+        opacity: .75;
+    }
+
+    100% {
+        background-color: #000b96;
+        color: #fff;
+        opacity: 1;
+    }
+}

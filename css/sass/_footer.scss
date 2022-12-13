@@ -1,0 +1,325 @@
+.footer-form {
+    background-color: #000b96;
+    padding: 160px 0 0;
+    position: relative;
+    z-index: 7;
+  }
+  
+  .wave-img {
+    text-align: center;
+    padding-top: 50px;
+    position: relative;
+  }
+  
+  .wave-img img {
+    /* filter: opacity(.3); */
+    filter: brightness(.1);
+    opacity: 0.3;
+  }
+  
+  /* .footer-form::before {
+    position: absolute;
+    content: "";
+    background-image: url(../images/wave-drop.png);
+    top: -120px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    bottom: 0;
+    background-repeat: no-repeat;
+    background-position: top center;
+  } */
+  
+  .form-content {
+    padding-left: 50px;
+  }
+  
+  
+  .form-content h2 {
+    font-family: 'GT-America-Extended-Light-Trial';
+    font-size: 60px;
+    line-height: 64px;
+    color: #fff;
+    padding-bottom: 25px;
+  }
+  
+  .form-content h2 span {
+    display: block;
+    font-weight: 800;
+  }
+  
+  .form-content p {
+    color: #fff;
+    font-family: 'AustinCyr-SemiboldItalic';
+    font-size: 36px;
+    line-height: 40px;
+  }
+  
+  .form-content input {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #1a24a1;
+    background-color: transparent;
+    width: 100%;
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    color: #fff;
+  }
+  
+  ::placeholder {
+    color: #fff;
+    opacity: 1;
+    /* Firefox */
+  }
+  
+  ::-ms-input-placeholder {
+    /* Microsoft Edge */
+    color: #fff;
+  }
+  
+  .bottom-form {
+    padding-top: 55px;
+  }
+  
+  .form-content .submit_btn {
+    font-family: 'LeagueSpartan-Bold';
+    border: 2px solid #000;
+    background-color: #000;
+    color: #fff;
+    font-size: 14px;
+    line-height: 18px;
+    text-transform: uppercase;
+    padding: 18px 50px 16px;
+    border-radius: 40px;
+    letter-spacing: 3.5px;
+    margin-top: 50px;
+    display: block;
+    width: auto;
+  }
+  
+  .form-content .submit_btn:hover {
+    border: 2px solid #fff;
+    background-color: #fff;
+    color: #000;
+  }
+  
+  .form-content button {
+    font-family: 'LeagueSpartan-Bold';
+    border: 2px solid #000;
+    background-color: #000;
+    color: #fff;
+    font-size: 14px;
+    line-height: 18px;
+    text-transform: uppercase;
+    padding: 18px 50px 16px;
+    border-radius: 40px;
+    letter-spacing: 3.5px;
+    margin-top: 50px;
+  }
+  
+  .form-content button:hover {
+    border: 2px solid #fff;
+    background-color: #fff;
+    color: #000;
+  }
+  
+  .footer {
+    background-color: #000b96;
+    padding-bottom: 100px;
+    // padding-top: 100px;
+    position: relative;
+    z-index: 6;
+  }
+  
+  .footer .footer-content h6 {
+    font-family: 'GT-America-Extended-Bold-Trial';
+    color: #fff;
+    font-size: 13px;
+    line-height: 17px;
+    text-transform: uppercase;
+    letter-spacing: 3.5px;
+    padding-bottom: 55px;
+  }
+  
+  .footer .footer-content .footer-list li {
+    font-size: 16px;
+    margin-bottom: 34px;
+    font-family: 'AdobeGaramond';
+  }
+  
+  .footer .footer-content .footer-list li a {
+    color: #afb5ff;
+  }
+  
+  .footer .footer-content .footer-list li a:hover {
+    color: #fff;
+  }
+  
+  .footer .footer-content .footer-list li:last-child {
+    margin-bottom: 0;
+  }
+  
+  .social-list li a .svg-inline--fa {
+    font-size: 20px;
+  }
+  
+  .social-list li a span {
+    color: #fff;
+    margin-left: 24px;
+  }
+  
+  .social-list li a {
+    display: flex;
+    align-items: center;
+  }
+  
+  .footer-info {
+    padding-left: 50px;
+    padding-top: 0px;
+  }
+  .footer-info .row {
+      align-items: flex-end;
+  }
+
+
+  
+  .footer-content {
+    // padding-top: 70px;
+  }
+  
+  .footer-logo span {
+    font-family: 'AGaramondPro-Regular';
+    color: #afb5ff;
+    font-size: 15px;
+    line-height: 19px;
+    margin-top: 18px;
+  }
+
+  // .main-sec-wrap-list li:first-child .aos-animate::after {
+  //   position: absolute;
+  //   content: "";
+  //   width: 1060px;
+  //   height: 1px;
+  //   top: 0;
+  //   left: 0;
+  //   background-color: rgb(23, 21, 153);
+  //   animation: border_anim_width 3s linear forwards;
+  //   display: none;
+  // }
+  
+  .water_drop {
+    width: 142px;
+    height: 142px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 64% 0 64% 64%;
+    /* box-shadow: rgb(149 157 165 / 53%) -7px -9px 30px inset; */
+    box-shadow: rgba(0,0,0,.22) -5px -2px 11px inset;
+    overflow: hidden;
+    position: relative;
+    transform: rotate(-45deg);
+  }
+
+.water_ripple_wrap {
+    position: relative;
+}
+
+.wrapper {
+    position: absolute;
+    width: 100%;
+    height: 300px;
+    top: 0;
+    bottom: 0;
+  }
+  .outer-shadow {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    box-shadow:
+    -0.7rem 0.2rem 1rem rgba(34, 100, 158, 0.1),
+    0.7rem 0.2rem 1rem rgba(34, 100, 158, 0.1),
+    0 0.5rem 1rem rgba(34, 100, 158, 0.1),
+    inset 0 -0.1rem 1rem rgba(34, 100, 158, 0.2),
+    inset 0 0.1rem 1rem rgba(255, 255, 255, 0.1),
+    0 -0.3rem 1rem rgba(255, 255, 255, 0.1);
+    transform: scale(0);
+  }
+  
+  .outer-shadow.submitdrop {
+    animation: wave 3s ease-out 1;
+  }
+  
+  .inner-shadow {
+    height: 90%;
+    width: 96%;
+    border-radius: 50%;
+    box-shadow:
+    0 0.1rem 1rem rgba(0, 0, 0, 0.3),
+    inset 0 -0.1rem 1rem rgba(0, 0, 0, 0.3),
+    inset 0 0.5rem 1rem rgba(34, 100, 158, 0.2),
+    inset 0.2rem 0 1rem rgba(34, 100, 158, 0.1),
+    inset -0.2rem 0 1rem rgba(34, 100, 158, 0.1),
+    0 -0.1rem 1rem rgba(34, 100, 158, 0.2);
+  }
+  
+  .submitdrop.wave_1 {
+    animation-delay: 1s;
+  }
+  .submitdrop.wave_2 {
+    animation-delay: 2s;
+  }
+  .submitdrop.wave_3 {
+    animation-delay: 3s;
+  }
+  .align-center {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+  .drop {
+    width: 100px;
+    height: 100px;
+    transform: translateY(-590px);
+    opacity: 1;
+  }
+
+  .submitdrop {
+    animation: fall 1s linear 1 forwards;
+  }
+
+   /*new css */
+
+  .footer-logo a img {
+    max-width: 194px;
+}
+
+.footer-logo span {
+    display: block;
+}
+
+.wave_wrap {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.appear_img {
+  animation: slowappear 2s ease-out 1 forwards;
+  animation-duration: 5s;
+}
+  
+.bottom-copy {
+    font-family: 'AGaramondPro-Regular';
+    color: #afb5ff;
+    font-size: 15px;
+    line-height: 19px;
+    margin-top: 18px;
+    text-align: center;
+    display: none;
+}

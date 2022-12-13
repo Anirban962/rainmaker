@@ -1,0 +1,125 @@
+
+
+/****LeagueSpartan Font****/
+
+@font-face {
+    font-family: 'LeagueSpartan-Thin';
+    src: url('../fonts/LeagueSpartan-Thin.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'LeagueSpartan-Regular';
+    src: url('../fonts/LeagueSpartan-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'LeagueSpartan-Medium';
+    src: url('../fonts/LeagueSpartan-Medium.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'LeagueSpartan-SemiBold';
+    src: url('../fonts/LeagueSpartan-SemiBold.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'LeagueSpartan-Bold';
+    src: url('../fonts/LeagueSpartan-Bold.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'LeagueSpartan-ExtraBold';
+    src: url('../fonts/LeagueSpartan-ExtraBold.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/****GT-America-Extended****/
+
+@font-face {
+    font-family: 'GT-America-Extended-Light-Trial';
+    src: url('../fonts/GT-America-Extended-Light-Trial.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GT-America-Extended-Regular-Trial';
+    src: url('../fonts/GT-America-Extended-Regular-Trial.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GT-America-Extended-Bold-Trial';
+    src: url('../fonts/GT-America-Extended-Bold-Trial.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/****AGaramondPro****/
+
+@font-face {
+    font-family: 'AGaramondPro-Regular';
+    src: url('../fonts/AGaramondPro-Regular.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'AGaramondPro-Bold';
+    src: url('../fonts/AGaramondPro-Bold.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/****AustinCyr-Fat****/
+
+@font-face {
+    font-family: 'AustinCyr-Fat';
+    src: url('../fonts/AustinCyr-Fat.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'AustinCyr-Medium';
+    src: url('../fonts/AustinCyr-MediumItalic.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'AustinCyr-SemiboldItalic';
+    src: url('../fonts/AustinCyr-SemiboldItalic.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'AustinCyr-BoldItalic';
+    src: url('../fonts/AustinCyr-BoldItalic.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/****AdobeGaramond****/
+
+@font-face {
+    font-family: 'AdobeGaramond';
+    src: url('../fonts/Adobe\ Garamond\ Regular.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
